@@ -1,0 +1,102 @@
+.btn {
+	line-height: 1;
+	text-transform: uppercase;
+	border-radius: 0;
+	border: none;
+	outline: none;
+	padding: 0;
+	
+	width: 100%;
+	min-height: 49px;
+	color: #FFF;
+	background-color: #09c459;
+	font-size: 20px;
+	text-shadow: 1px 0 2px rgba(0, 0, 0, .20);
+	text-transform: uppercase;
+	box-shadow: inset -1px -1px 3px rgba(0, 0, 0, 0.5), inset 2px 2px 2px rgba(255, 255, 255, 0.5);
+	letter-spacing: 2px;
+	
+	&:focus {
+		color: white;
+	}
+
+	&:active {
+		outline: none;
+		border-bottom: none;
+	}
+
+	&:hover, &:active {
+		color: #FFF;
+		border-color: #8aa824;
+		background-image: linear-gradient(to bottom, #65cb02, #c4ef33);
+	}
+}
+
+.in {
+	border: none;
+	outline: none;
+	padding: 0;
+
+	width: 100%;
+	height: 52px;
+	padding-left: 40px;
+	border: none;
+	background-color: #FFF;
+	text-align: left;
+	color: #2e2e2e;
+	font-family: "Open Sans";
+	font-size: 12.5px;
+	letter-spacing: 1px;
+	
+	
+}
+.in::-webkit-input-placeholder {
+	color: #2e2e2e;
+}
+.in::-moz-placeholder {
+	color: #2e2e2e;
+}
+.in:-moz-placeholder {
+	color: #2e2e2e;
+}
+.in:-ms-input-placeholder {
+	color: #2e2e2e;
+}
+
+.ic {
+	position: relative;
+	
+	.in-icon {
+		position: absolute;
+		top: 20px;
+		left: 20px;
+		font-size: 13px;
+		color: #2e2e2e;
+	}
+}
+
+.invalid {
+	background: #FF2321;
+	color: #FFF;
+}
+.invalid::-webkit-input-placeholder {
+	color:#FFF;
+}
+.invalid::-moz-placeholder {
+	color:#FFF;
+}
+.invalid:-moz-placeholder {
+	color:#FFF;
+}
+.invalid:-ms-input-placeholder {
+	color:#FFF;
+}
+
+.select {
+	width: 263px;
+	padding-left: 24px;
+	border: 1px solid #b4b4b4;
+	font-family: "Open Sans";
+	font-size: 12.5px;
+	color: #2e2e2e;
+}

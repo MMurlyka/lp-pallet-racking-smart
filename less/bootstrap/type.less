@@ -1,0 +1,41 @@
+h1, h2, h3, h4, h5, h6 {
+	&:extend(.text-uppercase);
+}
+
+h2 {
+	font-size: 34px;
+	font-weight: normal;
+	line-height: 40px;
+	letter-spacing: 3px;
+}
+
+.text-orange {
+	color: @orange;
+}
+
+.h2-decor {
+	position: relative;
+	z-index: 5;
+	display: block;
+	margin: auto;
+}
+
+.ul {
+	list-style-type: none;
+	text-align: left;
+	font-family: "Open Sans";
+	font-size: 13px;
+	line-height: 28px;
+	color: #161923;
+	letter-spacing: 0.7px;
+}
+
+.li {
+	position: relative;
+	
+	.fa-li {
+		font-size: 15px;
+		left: -30px;
+		top: 10px;
+	}
+}

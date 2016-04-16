@@ -1,0 +1,18 @@
+.i,
+.i-h2-decor,
+.i-money {
+  display: inline-block;
+  background-image: url(../images/sprite.png);
+  vertical-align: middle;
+}
+.i-h2-decor {
+  background-position: 0px 0px;
+  width: 226px;
+  height: 8px;
+}
+.i-money {
+  background-position: 0px -8px;
+  width: 40px;
+  height: 32px;
+}
+/*# sourceMappingURL=sprite.css.map */
